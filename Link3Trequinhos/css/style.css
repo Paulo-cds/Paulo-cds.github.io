@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: rgb(163,128,203);
+    background: radial-gradient(circle, rgba(163,128,203,1) 0%, rgba(130,45,135,0.908000700280112) 86%, rgba(88,8,55,1) 100%);
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 40px 0;
+}
+
+.social img {
+    width: 33px;
+}
+
+.links-list .conheca {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.links-list li {
+    margin: 10px 20px;
+    list-style: none;
+    text-align: center;
+}
+
+.links-list li img {
+    width: 60px;
+    border: 1px solid rgb(34, 33, 33);
+    box-shadow: 2px 2px 0 black;
+    border-radius: 10px;
+}
+
+.links-list .whats {
+    border-radius: 100%;
+}
+
+.links-list li a {
+    display: block;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(251, 251, 253);
+    font-weight: bold;
+    background: rgb(90, 89, 89);
+}
+
+.links-list li a span{
+    color: whitesmoke;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(12, 10, 10);
+}
+
+.footer h4 {
+    padding: 0 7px;
+    margin-top: 10px;
+}
+
+.footer a img {
+    width: 30px;
+    margin-top: 6px;
+    border: 1px solid rgba(20, 20, 20, 0.815);
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px rgba(20, 20, 20, 0.658);
+}
+
+
