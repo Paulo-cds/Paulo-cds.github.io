@@ -51,6 +51,7 @@ html, body {
   width: 10vh;
 }
 .head .contato {
+  margin-top: 3%;
   width: 60%;
   height: 60%;
   margin-left: auto;
@@ -83,7 +84,7 @@ html, body {
 }
 .head .contato .form .button {
   width: 20%;
-  height: 5%;
+  height: 8vh;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
