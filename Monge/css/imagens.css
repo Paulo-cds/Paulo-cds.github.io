@@ -13,7 +13,9 @@ html, body {
 
 .head {
   width: 100%;
-  height: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   padding-bottom: 5%;
   background-color: rgba(224, 235, 74, 0.719);
   margin-left: auto;
@@ -54,25 +56,31 @@ html, body {
 }
 .head .galery {
   width: 80%;
-  height: 100vh;
-  margin: 2% auto 0 auto;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   padding-top: 3%;
+  justify-content: space-around;
 }
-.head .galery div {
-  width: 24%;
+.head .galery .container {
+  width: 47%;
+  height: auto;
+  margin: 3% 0;
+  text-align: center;
 }
-.head .galery div img {
+.head .galery .container img {
   width: 100%;
+  height: auto;
   border: 3px solid #5e5d5a;
   border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.head .galery div img:hover {
+.head .galery .container img:hover {
   border-radius: 0;
   border: 2px solid #7cdf64;
   box-shadow: 0 0 5px #27461f;
   transform: scale(1.5);
-  transition: 0.5s;
+  transition: 0.3s;
 }/*# sourceMappingURL=imagens.css.map */

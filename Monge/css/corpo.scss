@@ -6,12 +6,15 @@
     background-image: url(../../Monge/image/castelhanos.jpg);
     background-size: cover;
     vertical-align: middle;
+    width: 100%;
+    
 
     .container{
         width: 80%;
         margin-left: auto;
         margin-right: auto;
         opacity: 0.9;
+        display: block;
         .end {
             display: flex;
             justify-content: space-between;
@@ -67,16 +70,41 @@
     }
 }
   
+.figmensagem{
+    position: fixed;
+    right: 5px;
+    bottom: 60px;
+    width:7vh;
+    margin-right:1%;
+    font-weight: bold;
+    color:rgb(85, 27, 27);
+    animation: neon 3s alternate infinite ease-in-out;
+    --cor-neon: red;
+    z-index: 9;
+}
 
+@keyframes neon {
+    from {
+        filter: drop-shadow(0 0 0 var(--cor-neon));
+    }
+    to {
+        filter: drop-shadow(0 0 60px var(--cor-neon));
+    }
+}
 #icon-whats{
     height: 7vh;
     width: 7vh;  
     position: fixed;
-    bottom: 60px;
-    right: 20px;
+    bottom: 30px;
+    right: 5px;
     box-shadow: 0 0 10px black;
     border-radius: 100%;
+    animation: neon 1s alternate infinite ease-in-out;
+    --cor-neon: red;
+    z-index: 0;
 }
+
+
 
 
 .footer{
