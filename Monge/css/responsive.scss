@@ -6,3 +6,43 @@
         display: block;
     }
 }
+
+@media (min-width: 701px){
+    .avaliacoesp{
+        display:none;
+    }
+}
+
+@media (max-width: 700px){
+    .avaliacoesp{
+        display: block;
+    }
+    .avaliacoes{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 768px){
+    .quarto{
+        display: block;
+
+        .slider{
+            width:100%;
+        }
+
+        .descricao{
+            width:100%;
+        }
+    }
+
+    .galery{
+        display: block;
+        height: fit-content;
+
+        div{
+            width: 70%;
+        }
+    }
+}
+
