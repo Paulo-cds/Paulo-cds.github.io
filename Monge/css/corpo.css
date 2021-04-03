@@ -90,14 +90,10 @@
   }
 }
 #icon-whats {
-  height: 5%;
   width: 5%;
   position: fixed;
-  bottom: 65px;
+  bottom: 30px;
   right: 5px;
-  box-shadow: 0 0 10px black;
-  border: 3px solid black;
-  border-radius: 100%;
   -webkit-animation: neon 1s alternate infinite ease-in-out;
           animation: neon 1s alternate infinite ease-in-out;
   --cor-neon: red;

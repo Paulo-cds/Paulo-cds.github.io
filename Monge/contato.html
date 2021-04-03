@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/corpo.css">
     <link rel="stylesheet" href="css/stile.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/contact-us.php">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Casa do Monge</title>
 </head>
 <body>
@@ -50,17 +53,22 @@
             </ul>
             <div class="contato">
                 <form class="form" action="https://hotmail.us1.list-manage.com/subscribe/post?u=6bb90883a273d15b7e61461e1&amp;id=1eee1b345e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <input class="entrada" type="text" placeholder="Nome" name="FNAME">
+                    <input class="entrada" required="required" type="text" placeholder="Nome" id="name" name="FNAME">
                     <br>
-                    <input class="entrada" type="text" placeholder="E-mail" name="Telefone">
+                    <input class="entrada" required="required" type="tel" placeholder="Telefone" id="phone" name="Telefone">
                     <br>
-                    <input class="entrada" type="email" placeholder="E-mail" name="EMAIL">
-                    <br>
-                    <input class="mensagem" type="text" placeholder="Mensagem" name="MENSAGEM">
+                    
+                    <input class="entrada" required="required" type="email" placeholder="E-mail" id="email" name="EMAIL">
                     <br><br>
-                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <!--<input class="mensagem" type="text" placeholder="Mensagem" id="message" name="MENSAGEM">-->
+                    <label>Mensagem</label>
+                    <br>
+                    <textarea name="MENSAGEM" id="message" required="required" class="mensagem" rows="8"></textarea>
+                    <br><br>
+                    <button type="submit" class="button">Enviar</button>
+                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups
                     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6bb90883a273d15b7e61461e1_1eee1b345e" tabindex="-1" value=""></div>
-                    <div class="clear"><input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    <div class="clear"><input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="button"></div>-->
                 </form>
             </div>
         </div>
@@ -72,6 +80,14 @@
             <div class="end">
                 <div class="info">
                     <div class="icon">
+                        <img src="../Monge/image/placeholder.png" alt="">
+                    </div>
+                    <div class="text">
+                        <span>Endereço</span>
+                        <span>Rua: José Carlos Siqueira, 733 </span>
+                        <span>Ilhabela/SP</span>
+                    </div>
+                    <div class="icon">
                         <img src="../Monge/image/phone.png" alt="">
                     </div>
                     <div class="text">
@@ -79,11 +95,8 @@
                         <span>(12)99999-9999</span>
                     </div>
                     <div class="icon">
-                        <a href="#"><img src="../Monge/image/face.png" alt="Facebook"></a>    
-                    </div>
-                    <div class="icon">
-                        <a href="#"><img src="../Monge/image/insta.png" alt="Instagram"></a>
-                    </div>
+                        <a href="https://www.facebook.com/Casa-Do-Monge-Ilhabela-368844543285024" target="_blank"><img src="../Monge/image/face.png" alt="Facebook"></a>    
+                    </div>                    
                 </div>
             </div>
             <div class="map">
@@ -92,11 +105,11 @@
         </div>
         
     </section>
-    <a href="#"><img class="figmensagem" src="../Monge/image/desconto.png" alt=""></a>
-    <a href="#"><img id="icon-whats" src="../Monge/image/whats.jpg" alt=""></a>
+    <!--<a href="#"><img src="../Monge/image/desconto.png" alt="" class="figmensagem"> </a>-->
+    <a href="https://api.whatsapp.com/send?phone=5512981581603&text=Ol%C3%A1,%20tudo%20bem?%20Gostaria%20de%20utilizar%20o%20cupom%20CDS021" target="_blank""><img id="icon-whats" src="../Monge/image/whats.png" alt=""></a>
 
     <footer class="footer">
-        <p>Desenvolvido por <a href="#"><img src="../Monge/image/Wd.png" alt=""></a></p>
+        <p>Desenvolvido por <a href="https://www.instagram.com/webdeveloper.paulorpd/" target="_blank"><img src="../Monge/image/Wd.png" alt=""></a></p>
     </footer>
     
 

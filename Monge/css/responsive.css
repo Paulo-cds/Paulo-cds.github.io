@@ -141,6 +141,10 @@
     -o-transform: none;
     -ms-transform: none;
   }
+
+  #icon-whats {
+    width: 8%;
+  }
 }
 @media (min-width: 1441px) {
   .head .galery {
