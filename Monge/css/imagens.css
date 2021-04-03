@@ -17,7 +17,7 @@ html, body {
   height: -moz-fit-content;
   height: fit-content;
   padding-bottom: 5%;
-  background-color: rgba(224, 235, 74, 0.719);
+  background-color: rgba(224, 231, 123, 0.719);
   margin-left: auto;
   margin-right: auto;
 }
@@ -56,24 +56,21 @@ html, body {
 }
 .head .galery {
   width: 80%;
-  height: 160vh;
-  margin-left: auto;
-  margin-right: auto;
+  height: 190vh;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   padding-top: 3%;
+  justify-content: space-between;
+  margin-left: auto;
 }
 .head .galery div {
-  width: 30%;
+  width: 33%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
 }
 .head .galery div img {
   width: 100%;
   border: 2px solid black;
-  border-radius: 10px;
 }
 .head .galery div img:hover {
   border-radius: 0;

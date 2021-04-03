@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/corpo.css">
     <link rel="stylesheet" href="css/stile.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <!--slide-->
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
     <title>Casa do Monge</title>
 </head>
 <body>
@@ -47,10 +50,7 @@
                     </nav>
                 </li>
             </ul>
-            <div class="sobre">
-                <div class="img">
-                    <img src="../Monge/image/sobre1.jpg" alt="">
-                </div>
+            <div class="sobre">                
                 <div>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ea nostrum perferendis recusandae suscipit molestiae, ipsam cupiditate consequuntur quaerat veritatis tenetur aspernatur, nisi quia dolorum dolores fugit omnis, perspiciatis alias?
@@ -70,6 +70,60 @@
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ea nostrum perferendis recusandae suscipit molestiae, ipsam cupiditate consequuntur quaerat veritatis tenetur aspernatur, nisi quia dolorum dolores fugit omnis, perspiciatis alias?
                     </p>
+                </div>
+            </div>
+            <!--regular slider-->
+            <div class="avaliacoes">
+                <h2>Avaliações</h2>
+                <section class="regular slider">
+                    <div>
+                    <img src="../Monge/image/avaliacoes/1.jpg">
+                    </div>
+                    <div>
+                    <img src="../Monge/image/avaliacoes/2.jpg">
+                    </div>
+                    <div>
+                    <img src="../Monge/image/avaliacoes/3.jpg">
+                    </div>
+                    <div>
+                    <img src="../Monge/image/avaliacoes/4.jpg">
+                    </div>
+                    <div>
+                    <img src="../Monge/image/avaliacoes/5.jpg">
+                    </div>
+                    <div>
+                    <img src="../Monge/image/avaliacoes/6.jpg">
+                    </div>
+                    <div>
+                    <img src="../Monge/image/avaliacoes/7.jpg">
+                    </div>
+                    <div>
+                    <img src="../Monge/image/avaliacoes/8.jpg">
+                    </div>
+                </section>
+            </div>
+            <div class="avaliacoesp">
+                <h2>Avaliações</h2>
+                
+                <div class="imgav">
+                    <div class="avimagens">
+                    <img src="../Monge/image/avaliacoes/1.jpg">
+                    <img src="../Monge/image/avaliacoes/2.jpg">
+                    </div>
+                    <div class="avimagens">
+                    <img src="../Monge/image/avaliacoes/3.jpg">
+                    <img src="../Monge/image/avaliacoes/4.jpg">
+                    </div>
+                    
+                    <div class="avimagens">
+                    <img src="../Monge/image/avaliacoes/5.jpg">
+                    <img src="../Monge/image/avaliacoes/6.jpg">
+                    </div>
+                    
+                    <div class="avimagens">
+                    <img src="../Monge/image/avaliacoes/7.jpg">
+                    <img src="../Monge/image/avaliacoes/8.jpg">
+                    </div>                    
                 </div>
             </div>
         </div>
@@ -108,6 +162,19 @@
         <p>Desenvolvido por <a href="#"><img src="../Monge/image/Wd.png" alt=""></a></p>
     </footer>
     
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        
+        $(".regular").slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 2
+        });
+
+    </script>
     <script src="js/script.js"></script>
 </body>
 </html>

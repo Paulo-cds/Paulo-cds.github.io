@@ -72,12 +72,11 @@
   
 .figmensagem{
     position: fixed;
-    right: 5px;
-    bottom: 60px;
-    width:7vh;
+    right: -15px;
+    bottom: 5px;
+    width:7%;
     margin-right:1%;
-    font-weight: bold;
-    color:rgb(85, 27, 27);
+    color:red;
     animation: neon 3s alternate infinite ease-in-out;
     --cor-neon: red;
     z-index: 9;
@@ -92,12 +91,13 @@
     }
 }
 #icon-whats{
-    height: 7vh;
-    width: 7vh;  
+    height: 5%;
+    width: 5%;  
     position: fixed;
-    bottom: 30px;
+    bottom: 65px;
     right: 5px;
     box-shadow: 0 0 10px black;
+    border: 3px solid black;
     border-radius: 100%;
     animation: neon 1s alternate infinite ease-in-out;
     --cor-neon: red;

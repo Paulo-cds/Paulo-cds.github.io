@@ -14,7 +14,7 @@ html, body{
     width: 100%;
     height:fit-content;
     padding-bottom: 5%;
-    background-color: rgba(224, 235, 74, 0.719);
+    background-color: rgba(224, 231, 123, 0.719);
     margin-left: auto;
     margin-right: auto;
 
@@ -53,30 +53,30 @@ html, body{
         }
     }
     
+
+    
     .galery{
         width: 80%;
-        height: 160vh;
-        margin-left: auto;
-        margin-right: auto;
+        height: 190vh;       
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         padding-top: 3%;
+        justify-content: space-between;
+        margin-left: auto;
+        
         
 
 
             div{                               
-                width: 30%;                
-                height: auto;                                
-                margin-left: auto;
-                margin-right: auto;
+                width: 33%;                
+                height: auto;                                                
 
 
                 img{
 
                     width: 100%;
-                    border: 2px solid black; 
-                    border-radius: 10px;
+                    border: 2px solid black;                     
                 
                     &:hover{                            
                         border-radius: 0;
@@ -95,6 +95,7 @@ html, body{
         
 
     }
+    
         
 }
 

@@ -15,6 +15,7 @@
 
  */
 /* global window, document, define, jQuery, setInterval, clearInterval */
+
 ;(function(factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
@@ -3007,5 +3008,8 @@
         }
         return _;
     };
+
+    
+    
 
 }));
