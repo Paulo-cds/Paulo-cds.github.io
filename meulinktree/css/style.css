@@ -61,14 +61,17 @@ h2 {
 
 .skills{
     display: flex;
-    width: 100%;
+    width: 90%;
     justify-content: space-around;
     text-decoration: none;
     list-style: none;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .skills img{
     width: 40px;
+    margin: 10px;
 }
 
 /*.links-list {
