@@ -72,36 +72,9 @@ h2 {
 .skills img{
     width: 40px;
     margin: 10px;
+    box-shadow: 5px 5px 10px rgb(2, 2, 2);
 }
 
-/*.links-list {
-    background: white;
-    
-}*/
-
-/*
-.dev {
-    background: white;
-    width: 500px;
-    margin: 3px auto;
-    padding: 10px;
-    border: 3px solid white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px white;
-    list-style: none;
-}
-
-.fab {
-    background: white;
-    width: 500px;
-    margin: 10px auto;
-    padding: 10px;
-    border: 3px solid white;
-    border-radius: 10px;
-    box-shadow: 0 0 5px white;
-    list-style: none;
-}
-*/
 
 .cursos{
     text-align: center;
