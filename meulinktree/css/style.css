@@ -48,6 +48,29 @@ h2 {
     width: 33px;
 }
 
+.skilld{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.skilld h2{
+    margin-bottom: 20px;
+}
+
+.skills{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+}
+
+.skills img{
+    width: 40px;
+}
+
 /*.links-list {
     background: white;
     
@@ -76,6 +99,10 @@ h2 {
     list-style: none;
 }
 */
+
+.cursos{
+    text-align: center;
+}
 
 .links-list li {
     margin: 10px 20px;
