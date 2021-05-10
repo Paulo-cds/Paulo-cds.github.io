@@ -11,7 +11,7 @@ body {
     font-family: 'Raleway', sans-serif;
     color: white;
     background: rgb(54,77,204);
-    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(29,43,122,1) 73%);
+    background: linear-gradient(180deg, rgb(76, 177, 235) 0%, rgb(126, 184, 218) 73%);
 }
 
 .avatar {
@@ -48,34 +48,41 @@ h2 {
     width: 33px;
 }
 
-/*.links-list {
-    background: white;
-    
-}*/
-
-/*
-.dev {
-    background: white;
-    width: 500px;
-    margin: 3px auto;
-    padding: 10px;
-    border: 3px solid white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px white;
-    list-style: none;
+.skilld{
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    margin: 50px auto;
 }
 
-.fab {
-    background: white;
-    width: 500px;
-    margin: 10px auto;
-    padding: 10px;
-    border: 3px solid white;
-    border-radius: 10px;
-    box-shadow: 0 0 5px white;
-    list-style: none;
+.skilld h2{
+    margin-bottom: 20px;
 }
-*/
+
+.skills{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.skills li{
+    margin: 5px;
+}
+
+.skills img{
+    width: 40px;
+    height: 40px;
+    box-shadow: 5px 5px 10px rgb(2, 2, 2);
+}
+
+
+.cursos{
+    text-align: center;
+}
 
 .links-list li {
     margin: 10px 20px;
