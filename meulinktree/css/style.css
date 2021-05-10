@@ -11,7 +11,7 @@ body {
     font-family: 'Raleway', sans-serif;
     color: white;
     background: rgb(54,77,204);
-    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(29,43,122,1) 73%);
+    background: linear-gradient(180deg, rgb(76, 177, 235) 0%, rgb(126, 184, 218) 73%);
 }
 
 .avatar {
@@ -49,7 +49,7 @@ h2 {
 }
 
 .skilld{
-    width: 100%;
+    width: 90%;
     align-items: center;
     text-align: center;
     margin: 50px auto;
@@ -61,7 +61,7 @@ h2 {
 
 .skills{
     display: flex;
-    width: 90%;
+    width: 100%;
     justify-content: space-around;
     text-decoration: none;
     list-style: none;
