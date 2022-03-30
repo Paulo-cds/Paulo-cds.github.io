@@ -23,6 +23,6 @@
  ##
  
  <div>
-  <a href='https://www.instagram.com/webdeveloper.paulorpd/' target='blank'><img height='30em' src=https://user-images.githubusercontent.com/65832495/160841595-66496d87-f7cc-457f-a806-839befe64ccd.png /></a>
-  <a href='https://paulo-rpd.vercel.app/' target='blank'><img height='30em' src='https://user-images.githubusercontent.com/65832495/160842723-2c2c8073-d6c0-40c5-881b-3f83b5f2f681.png' /></a>
+  <a href='https://www.instagram.com/webdeveloper.paulorpd/' target='_blank'><img height='30em' src=https://user-images.githubusercontent.com/65832495/160841595-66496d87-f7cc-457f-a806-839befe64ccd.png /></a>
+  <a href='https://paulo-rpd.vercel.app/' target='_blank'><img height='30em' src='https://user-images.githubusercontent.com/65832495/160842723-2c2c8073-d6c0-40c5-881b-3f83b5f2f681.png' /></a>
  </div>
