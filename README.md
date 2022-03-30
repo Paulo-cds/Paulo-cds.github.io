@@ -1,9 +1,9 @@
 ## Ola! Sou Paulo seja bem vindo!
 
 
-<div align:'center' >
-  <img style="magin-right:30px" align='center' height='200em' src='https://github-readme-stats.vercel.app/api?username=Paulo-cds&show_icons=true&theme=dark)' />
-  <img align='center' height='250em' src='https://github-readme-stats.vercel.app/api/top-langs/?username=Paulo-cds&exclude_repo=github-readme-stats&theme=dark,Paulo-cds.github.io' />
+<div>
+  <img style="margin-right:30px" align='center' height='200em' src='https://github-readme-stats.vercel.app/api?username=Paulo-cds&show_icons=true&theme=tokyonight' />
+  <img align='center' height='250em' src='https://github-readme-stats.vercel.app/api/top-langs/?username=Paulo-cds&theme=tokyonight&exclude_repo=github-readme-stats,Paulo-cds.github.io' />
  </div>
  
  ##
@@ -19,8 +19,6 @@
   <img height='30em' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
   <img height='30em' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />                                        
  </div>
- 
- ##
  
  <div>
   <a href='https://www.instagram.com/webdeveloper.paulorpd/' target='_blank'><img height='30em' src=https://user-images.githubusercontent.com/65832495/160841595-66496d87-f7cc-457f-a806-839befe64ccd.png /></a>
